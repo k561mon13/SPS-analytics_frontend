@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy>
+     
+    <version>4.2.1</version>          <!-- The version of SpatialMap this module comes from -->
+    <lastupdated>4.2.1</lastupdated>  <!-- The SpatialMap version this module was last updated -->
+    <since>4.2.1</since>               <!-- The SpatialMap version this module was introduced in -->
+    <description>En erstatning af Google Analytics. SpS analytics kører på events fra sps og gemmer data i SQL-database</description>       <!-- Short description of this module (shown in the admin console) -->
+	<copydir fromdir="[module:sps_analytics_frontend.dir]/js" todir="[cbinfo.wwwroot.dir]/modules/sps_analytics_frontend/js" replacetext="true" />
+	<copydir fromdir="[module:sps_analytics_frontend.dir]/html" todir="[cbinfo.wwwroot.dir]/modules/sps_analytics_frontend/html" replacetext="true" />
+	<copydir fromdir="[module:sps_analytics_frontend.dir]/css" todir="[cbinfo.wwwroot.dir]/modules/sps_analytics_frontend/css" replacetext="true" />
+	<copydir fromdir="[module:sps_analytics_frontend.dir]/images" todir="[cbinfo.wwwroot.dir]/skins/esbjerg_intern/images/modules/sps_analytics_frontend" replacetext="true" />
+</deploy>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tool>
+
+    
+    <cbinfo-metadata>
+        <param name="tool.help.text">SPS-Analytics off</param>
+    </cbinfo-metadata>
+	
+    <requires>
+		<file type="script" name="/modules/sps_analytics_frontend/js/SPS_analytics_button.js" lazy="true" priority="1" charset="utf-8" />
+    </requires>
+
+    <displayname>SPS-Analytics off</displayname>
+    <tooltip>SPS-Analytics</tooltip>
+
+    <img>#skin#/images/modules/sps_analytics_frontend/not_A.png</img>
+
+    <onclick>spsAnalyticsFrontend.init()</onclick>
+	
+
+	
+</tool>
